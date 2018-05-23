@@ -1,10 +1,16 @@
 <template lang="html">
   <div class="header">
-    <div class="header-left">left</div>
-    <div class="header-input">
-      input
+    <div class="header-left">
+       <span class="iconfont back-icon">&#xe624;</span>
     </div>
-    <div class="header-right">right</div>
+    <div class="header-input">
+      <span class="iconfont">&#xe632;</span>
+      请输入
+    </div>
+    <div class="header-right">
+      城市
+      <span class="iconfont arrow-icon">&#xe64a;</span>
+    </div>
   </div>
 </template>
 
@@ -15,28 +21,40 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import '~@/assets/styles/varibles.styl'
   .header {
     display: flex
     line-height: .86rem
-    background: #00bcd4
+    background: $bgColor
     color: #fff
-  }
-  .header-left {
-    width: .64rem
-    float: left
-  }
-  .header-input {
-    flex: 1
-    height: .64rem
-    line-height: .64rem
-    margin-top: .12rem
-    margin-left: .2rem
-    background: #fff
-    border-radius: .1rem
-  }
-  .header-right {
-    width: 1.12rem
-    float: right
-    text-align: center
+    .header-left {
+      width: .64rem
+      float: left
+      text-align: center
+      .back-icon {
+        text-align: center
+        font-size: .4rem
+      }
+    }
+    .header-input {
+      flex: 1
+      height: .64rem
+      line-height: .64rem
+      margin-top: .12rem
+      margin-left: .2rem
+      padding-left: .2rem
+      background: #fff
+      border-radius: .1rem
+      color: #ccc
+    }
+    .header-right {
+      width: 1.12rem
+      float: right
+      text-align: center
+      .arrow-icon {
+        margin-left: -.04rem
+        font-size: 0.24rem
+      }
+    }
   }
 </style>
