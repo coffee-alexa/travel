@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="header">
     <div class="header-left">
-       <span class="iconfont back-icon">&#xe624;</span>
+        <span class="iconfont back-icon">&#xe624;</span>
     </div>
     <div class="header-input">
       <span class="iconfont">&#xe632;</span>
@@ -16,7 +16,11 @@
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  swiperOption: {
+    pagination: '.swiper-pagination',
+    loop: true
+  }
 }
 </script>
 
