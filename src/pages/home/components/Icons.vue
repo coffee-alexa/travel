@@ -97,6 +97,7 @@ export default {
         width: 100%
         height: 0px
         padding-bottom: 50%
+        margin-top: .2rem
         .icon {
             overflow: hidden
             float: left
