@@ -1,0 +1,64 @@
+{
+    "ret": true,
+    "data": {
+        "city": "北京",
+        "iconList": [{
+            "id": "0001",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0002",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0003",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0004",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0005",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0006",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0007",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0008",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+            },{
+            "id": "0009",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "desc": "景点门票"
+        }],
+        "recommendList": [{
+            "id": "0001",
+            "title": "长春必游TOP5",
+            "desc": "这是一片历史与现实交映的黑土地",
+            "button":"查看详情",
+            "srcUrl": "http://img1.qunarzz.com/sight/p0/1507/f0/45ad118808cbfbdd1ca292f6939bdda5.water.jpg_150x150_1166f15a.jpg"
+        }],
+        "swiperList": [{
+            "id": "0001",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/77/f63bd04dd5319602.jpg_750x200_6ba8e0ca.jpg"
+        },{
+            "id": "0002",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/e5/59fad13a64807d02.jpg_750x200_713ae984.jpg"
+        }],
+        "weekendList": [{
+            "id": "0001",
+            "title": "长春必游TOP5",
+            "desc": "这是一片历史与现实交映的黑土地",
+            "button":"查看详情",
+            "srcUrl": "http://img1.qunarzz.com/sight/source/1505/c2/0be94f64d9df91.jpg_r_640x214_130f7614.jpg"
+        }]
+    }
+}

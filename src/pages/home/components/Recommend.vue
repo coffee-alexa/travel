@@ -19,32 +19,8 @@
 <script>
 export default {
   name: 'HomeCommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        title: '长春必游TOP5',
-        desc: '这是一片历史与现实交映的黑土地',
-        button: '查看详情',
-        srcUrl: 'http://img1.qunarzz.com/sight/p0/1507/f0/45ad118808cbfbdd1ca292f6939bdda5.water.jpg_150x150_1166f15a.jpg'
-      },
-      {
-        id: '0002',
-        title: '长春必游TOP5',
-        desc: '这是一片历史与现实交映的黑土地',
-        button: '查看详情',
-        srcUrl: 'http://img1.qunarzz.com/sight/p0/1507/f0/45ad118808cbfbdd1ca292f6939bdda5.water.jpg_150x150_1166f15a.jpg'
-
-      },
-      {
-        id: '0003',
-        title: '长春必游TOP5',
-        desc: '这是一片历史与现实交映的黑土地',
-        button: '查看详情',
-        srcUrl: 'http://img1.qunarzz.com/sight/p0/1507/f0/45ad118808cbfbdd1ca292f6939bdda5.water.jpg_150x150_1166f15a.jpg'
-
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>

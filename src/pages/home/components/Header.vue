@@ -8,7 +8,7 @@
       请输入
     </div>
     <div class="header-right">
-      城市
+      {{this.city}}
       <span class="iconfont arrow-icon">&#xe64a;</span>
     </div>
   </div>
@@ -20,6 +20,9 @@ export default {
   swiperOption: {
     pagination: '.swiper-pagination',
     loop: true
+  },
+  props: {
+    city: String
   }
 }
 </script>
