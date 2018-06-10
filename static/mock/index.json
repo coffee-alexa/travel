@@ -41,7 +41,13 @@
         }],
         "recommendList": [{
             "id": "0001",
-            "title": "长春必游TOP5",
+            "title": "当当城儿童职业体验馆",
+            "desc": "少年儿童自主管理的虚拟城市",
+            "button":"查看详情",
+            "srcUrl": "http://img1.qunarzz.com/sight/p0/1611/a6/a639aac6bd4cd6fca3.water.jpg_200x200_79b35c63.jpg"
+        },{
+            "id": "0002",
+            "title": "净月潭",
             "desc": "这是一片历史与现实交映的黑土地",
             "button":"查看详情",
             "srcUrl": "http://img1.qunarzz.com/sight/p0/1507/f0/45ad118808cbfbdd1ca292f6939bdda5.water.jpg_150x150_1166f15a.jpg"
@@ -55,7 +61,13 @@
         }],
         "weekendList": [{
             "id": "0001",
-            "title": "长春必游TOP5",
+            "title": "当当城儿童职业体验馆",
+            "desc": "少年儿童自主管理的虚拟城市",
+            "button":"查看详情",
+            "srcUrl": "http://img1.qunarzz.com/sight/p0/1611/a6/a639aac6bd4cd6fca3.water.jpg_200x200_79b35c63.jpg"
+        },{
+            "id": "0002",
+            "title": "净月潭",
             "desc": "这是一片历史与现实交映的黑土地",
             "button":"查看详情",
             "srcUrl": "http://img1.qunarzz.com/sight/source/1505/c2/0be94f64d9df91.jpg_r_640x214_130f7614.jpg"
