@@ -23,7 +23,6 @@ export default {
     letters () {
       var letters = []
       for (let i in this.cities) {
-        // 此处对把对象的key值直接放到数组里，没看懂
         letters.push(i)
       }
       return letters

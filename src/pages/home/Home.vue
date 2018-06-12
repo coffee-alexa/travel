@@ -28,7 +28,7 @@ export default {
   },
   data () {
     return {
-      lastCity: 'a',
+      lastCity: '',
       swiperList: [],
       iconList: [],
       recommendList: [],

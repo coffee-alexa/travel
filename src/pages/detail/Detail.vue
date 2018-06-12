@@ -20,7 +20,8 @@ export default {
     return {
       sightName: '',
       bannerImg: '',
-      gallaryImgs: []
+      gallaryImgs: [],
+      lastId: ''
     }
   },
   components: {
@@ -47,6 +48,14 @@ export default {
   },
   mounted () {
     this.getDetailInfo()
+    this.lastId = this.id
+  },
+  activated () {
+    console.log(this.$route.params.id)
+    if (this.lastId !== this.$route.params.id) {
+      this.lastId = this.$route.params.id
+      this.getDetailInfo()
+    }
   }
 }
 </script>
